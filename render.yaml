@@ -4,4 +4,3 @@ services:
     runtime: docker
     dockerfilePath: ./Dockerfile.mcp
     plan: free
-    healthCheckPath: /health
