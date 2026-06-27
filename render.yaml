@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: markitdown-mcp
+    runtime: docker
+    dockerfilePath: ./Dockerfile.mcp
+    plan: free
+    healthCheckPath: /health
